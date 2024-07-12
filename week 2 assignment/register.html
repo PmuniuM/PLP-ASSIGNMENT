@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Expense Tracker</title>
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Create a new account</h2>
+        <form action="/submit_registration" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <input type="submit" value="Register">
+        </form>
+    </section>
+    <section>
+        <h2>Common User Information</h2>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@example.com</td>
+                <td>123-456-7890</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Expense Tracker Application</p>
+        <a href="https://google.com">External Link to Google</a>
+    </footer>
+</body>
+</html>
